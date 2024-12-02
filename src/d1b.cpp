@@ -1,4 +1,4 @@
-// Day 1 a
+// Day 1 b
 
 #include <iostream>
 #include <vector>
@@ -53,31 +53,35 @@ int main()
         // b.push_back(std::stoi(num_str));
     }
 
-    int total_dist = 0;
+    int total_sim_score = 0;
 
     // <key, value> is <idx, value>
-    std::multiset<int> hashmap_a;
-    std::multiset<int> hashmap_b;
+    std::multiset<int> multiset_a;
+    std::multiset<int> multiset_b;
 
     // iterate and add to hash map
     for (int i = 0; i < (int)a.size(); i++)
     {
-        hashmap_a.insert(a[i]);
-        hashmap_b.insert(b[i]);
+        multiset_a.insert(a[i]);
+        multiset_b.insert(b[i]);
     }
 
     // Iterate through hashmap
-    for (auto a_it = hashmap_a.begin(), b_it = hashmap_b.begin(); 
-        a_it != hashmap_a.end(); a_it++, b_it++)
+    for (auto a_it = multiset_a.begin(), b_it = multiset_b.begin(); 
+        a_it != multiset_a.end(); a_it++, b_it++)
     {
         // std::cout << *a_it << " - " << *b_it << std::endl;
-        int diff = std::abs(*a_it - *b_it); 
-        total_dist += diff;
+        // int diff = std::abs(*a_it - *b_it); 
+        int num_copies = multiset_b.count(*a_it); 
+        if (num_copies >= 1){
+            int sim_score = num_copies * *a_it;
+            total_sim_score += sim_score;
+        }
     }
 
     auto duration = duration_cast<microseconds>(high_resolution_clock::now() - start);
 
-    std::cout << "total_dist: " << total_dist << std::endl;
+    std::cout << "total_sim_score: " << total_sim_score << std::endl;
 
     std::cout << "runtime in microseconds: " << duration.count() << std::endl;
 
