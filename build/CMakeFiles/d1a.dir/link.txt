@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/d1a.dir/src/d1a.cpp.o -o d1a 

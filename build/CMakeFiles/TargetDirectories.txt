@@ -1,8 +1,0 @@
-/home/john/AdventOfCode2024/build/CMakeFiles/d1a.dir
-/home/john/AdventOfCode2024/build/CMakeFiles/d1b.dir
-/home/john/AdventOfCode2024/build/CMakeFiles/d2a.dir
-/home/john/AdventOfCode2024/build/CMakeFiles/d2b.dir
-/home/john/AdventOfCode2024/build/CMakeFiles/d3a.dir
-/home/john/AdventOfCode2024/build/CMakeFiles/d3b.dir
-/home/john/AdventOfCode2024/build/CMakeFiles/edit_cache.dir
-/home/john/AdventOfCode2024/build/CMakeFiles/rebuild_cache.dir
