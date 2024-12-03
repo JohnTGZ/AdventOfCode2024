@@ -53,4 +53,28 @@ target_include_directories(d1b PUBLIC
 	$<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}>
 )
 
+add_executable(d2a src/d2a.cpp)
+target_include_directories(d2a PUBLIC
+	$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+	$<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}>
+)
+
+add_executable(d2b src/d2b.cpp)
+target_include_directories(d2b PUBLIC
+	$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+	$<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}>
+)
+
+add_executable(d3a src/d3a.cpp)
+target_include_directories(d3a PUBLIC
+	$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+	$<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}>
+)
+
+add_executable(d3b src/d3b.cpp)
+target_include_directories(d3b PUBLIC
+	$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+	$<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}>
+)
+
 # target_link_libraries(main PUBLIC uavsm)

@@ -65,6 +65,10 @@ CMAKE_BINARY_DIR = /home/john/AdventOfCode2024/build
 # The main recursive "all" target.
 all: CMakeFiles/d1a.dir/all
 all: CMakeFiles/d1b.dir/all
+all: CMakeFiles/d2a.dir/all
+all: CMakeFiles/d2b.dir/all
+all: CMakeFiles/d3a.dir/all
+all: CMakeFiles/d3b.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,6 +78,10 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/d1a.dir/clean
 clean: CMakeFiles/d1b.dir/clean
+clean: CMakeFiles/d2a.dir/clean
+clean: CMakeFiles/d2b.dir/clean
+clean: CMakeFiles/d3a.dir/clean
+clean: CMakeFiles/d3b.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -127,6 +135,110 @@ d1b: CMakeFiles/d1b.dir/rule
 CMakeFiles/d1b.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/d1b.dir/build.make CMakeFiles/d1b.dir/clean
 .PHONY : CMakeFiles/d1b.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/d2a.dir
+
+# All Build rule for target.
+CMakeFiles/d2a.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/d2a.dir/build.make CMakeFiles/d2a.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/d2a.dir/build.make CMakeFiles/d2a.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/john/AdventOfCode2024/build/CMakeFiles --progress-num=5,6 "Built target d2a"
+.PHONY : CMakeFiles/d2a.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/d2a.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/AdventOfCode2024/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/d2a.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/AdventOfCode2024/build/CMakeFiles 0
+.PHONY : CMakeFiles/d2a.dir/rule
+
+# Convenience name for target.
+d2a: CMakeFiles/d2a.dir/rule
+.PHONY : d2a
+
+# clean rule for target.
+CMakeFiles/d2a.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/d2a.dir/build.make CMakeFiles/d2a.dir/clean
+.PHONY : CMakeFiles/d2a.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/d2b.dir
+
+# All Build rule for target.
+CMakeFiles/d2b.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/d2b.dir/build.make CMakeFiles/d2b.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/d2b.dir/build.make CMakeFiles/d2b.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/john/AdventOfCode2024/build/CMakeFiles --progress-num=7,8 "Built target d2b"
+.PHONY : CMakeFiles/d2b.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/d2b.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/AdventOfCode2024/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/d2b.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/AdventOfCode2024/build/CMakeFiles 0
+.PHONY : CMakeFiles/d2b.dir/rule
+
+# Convenience name for target.
+d2b: CMakeFiles/d2b.dir/rule
+.PHONY : d2b
+
+# clean rule for target.
+CMakeFiles/d2b.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/d2b.dir/build.make CMakeFiles/d2b.dir/clean
+.PHONY : CMakeFiles/d2b.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/d3a.dir
+
+# All Build rule for target.
+CMakeFiles/d3a.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/d3a.dir/build.make CMakeFiles/d3a.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/d3a.dir/build.make CMakeFiles/d3a.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/john/AdventOfCode2024/build/CMakeFiles --progress-num=9,10 "Built target d3a"
+.PHONY : CMakeFiles/d3a.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/d3a.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/AdventOfCode2024/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/d3a.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/AdventOfCode2024/build/CMakeFiles 0
+.PHONY : CMakeFiles/d3a.dir/rule
+
+# Convenience name for target.
+d3a: CMakeFiles/d3a.dir/rule
+.PHONY : d3a
+
+# clean rule for target.
+CMakeFiles/d3a.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/d3a.dir/build.make CMakeFiles/d3a.dir/clean
+.PHONY : CMakeFiles/d3a.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/d3b.dir
+
+# All Build rule for target.
+CMakeFiles/d3b.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/d3b.dir/build.make CMakeFiles/d3b.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/d3b.dir/build.make CMakeFiles/d3b.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/john/AdventOfCode2024/build/CMakeFiles --progress-num=11,12 "Built target d3b"
+.PHONY : CMakeFiles/d3b.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/d3b.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/AdventOfCode2024/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/d3b.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/AdventOfCode2024/build/CMakeFiles 0
+.PHONY : CMakeFiles/d3b.dir/rule
+
+# Convenience name for target.
+d3b: CMakeFiles/d3b.dir/rule
+.PHONY : d3b
+
+# clean rule for target.
+CMakeFiles/d3b.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/d3b.dir/build.make CMakeFiles/d3b.dir/clean
+.PHONY : CMakeFiles/d3b.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
